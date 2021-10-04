@@ -1,0 +1,25 @@
+{
+    "name": "bankappdemoapi",
+    "version": "1.0.0",
+    "description": "Bank API",
+    "main": "api-server.js",
+    "scripts": {
+        "start": "nodemon api-server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/s78901/bank-app-demo-api"
+    },
+    "author": "S78901",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/s78901/bank-app-demo-api/issues"
+    },
+    "homepage": "https://github.com/s78901/bank-app-demo-api#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongodb": "^4.1.2",
+        "nodemon": "^2.0.13"
+    }
+}
