@@ -4,13 +4,15 @@ Bank App Demo API is a lightweight mock server which runs Express.JS / Node.JS t
 
 ## Installation
 
-Clone the project to your machine. Open the folder in your terminal and run the Node command 'npm install'. 
+If you do not have Node or npm, please go [download it here](https://nodejs.org/en/download/) and make sure to install all options including NPM & environmental paths
+
+Next, clone this project to your machine. Open the bank-app-demo-api folder in your terminal and run the Node command 'npm install'. This will install all the necessary NPM packages for your server to function.
 
 ```bash
 npm install
 ```
 
-Once the packages are done installing, run 'npm start'. 
+Once the packages are done installing, run 'npm start'. Your server will start, and you should see a notification in your terminal of success.
 
 ```bash
 npm start
