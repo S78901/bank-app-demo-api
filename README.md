@@ -12,11 +12,12 @@ Next, clone this project to your machine. Open the bank-app-demo-api folder in y
 npm install
 ```
 
-Once the packages are done installing, run 'npm start'. Your server will start, and you should see a notification in your terminal of success.
+Once the packages are done installing, run 'npm start'. 
 
 ```bash
 npm start
 ```
+Your server will start, and you should see a notification in your terminal of success. The Express server will run on port 8081 of your localhost. If you visit [http://localhost:8081/](http://localhost:8081/), you should now see 'Hello World'. This will tell you that the server is running.
 
 The Express server continually runs via the nodemon library. If you would like to end the program, close your terminal or run 'killall -9 node' from elsewhere.
 
